@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color: gray;
+    border : 1px solid black;
+    width: 450px;
+    height : 50px;
+    margin:auto;
+}
+ul{
+    display:inline-block;
+}
+li{
+    display:inline-block;
+    line-height: 50px;
+    float:left;
+    margin-left: 30px;    
+}
+li:hover{
+    color:white;
+}
+.sale{
+    display:flex;
+}
+.item{
+    justify-content: space-evenly ;
+    font-size: 50px;;
+}
+a{
+    color : black;
+}
+a:hover{
+    color : aqua;
+    text-decoration: underline;;
+}
+.login{
+    display:flex;
+    border : 1px solid navy;
+    width:250px;
+}
